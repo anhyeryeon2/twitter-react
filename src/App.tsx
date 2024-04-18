@@ -7,7 +7,7 @@ import { app } from "firebaseApp";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Loader from "components/loader/Loader";
-
+ 
 function App() {
   const auth = getAuth(app);
   const [init, setInit] = useState<boolean>(false);
